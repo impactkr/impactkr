@@ -16,6 +16,9 @@ export default {
         foreground: 'var(--foreground)',
       },
       screens: {
+        ta: {
+          max: '1200px',
+        },
         mo: {
           max: '640px',
         },
