@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Pretendard', sans-serif;
+  font-family: "Pretendard", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;

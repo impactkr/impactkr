@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
-import '@/styles/globals.css';
+import type { Metadata } from "next";
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: '(주)임팩트코리아',
-  description: 'Estate Advertising Agency',
+  title: "(주)임팩트코리아",
+  description: "Estate Advertising Agency",
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import VisualText from './VisualText';
+import VisualText from "./VisualText";
 
 function Visual() {
   return (

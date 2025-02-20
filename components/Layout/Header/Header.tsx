@@ -1,8 +1,8 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import Inner from '@/components/Inner';
-import Logo from '@/components/Logo';
-import Gnb from '@/components/Layout/Header/Gnb';
+import Inner from "@/components/Inner";
+import Logo from "@/components/Logo";
+import Gnb from "@/components/Layout/Header/Gnb";
 
 function Header() {
   return (

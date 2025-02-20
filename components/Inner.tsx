@@ -1,5 +1,5 @@
-import classNames from 'classnames';
-import React from 'react';
+import classNames from "classnames";
+import React from "react";
 
 function Inner({
   children,
@@ -12,7 +12,7 @@ function Inner({
     <div
       className={classNames(
         className,
-        'mx-auto w-[1200px] ta:w-full ta:px-[40px] mo:px-[20px]',
+        "mx-auto w-[1200px] ta:w-full ta:px-[40px] mo:px-[20px]",
       )}
     >
       {children}

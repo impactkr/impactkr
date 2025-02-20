@@ -1,7 +1,7 @@
-import classNames from 'classnames';
+import classNames from "classnames";
 
-const barClass = 'mx-[7px] h-[8px] w-[1px] bg-[#6c5d5d]';
-const lineClass = 'block h-[1px] w-full border-none';
+const barClass = "mx-[7px] h-[8px] w-[1px] bg-[#6c5d5d]";
+const lineClass = "block h-[1px] w-full border-none";
 
 function Footer() {
   return (

@@ -1,21 +1,21 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const navLinks = [
   {
-    title: '회사소개',
-    href: '/AboutUs',
+    title: "회사소개",
+    href: "/AboutUs",
   },
   {
-    title: '사업영역',
-    href: '/Service',
+    title: "사업영역",
+    href: "/Service",
   },
   {
-    title: '커뮤니티',
-    href: '/Community',
+    title: "커뮤니티",
+    href: "/Community",
   },
   {
-    title: '상담신청',
-    href: '/Contact',
+    title: "상담신청",
+    href: "/Contact",
   },
 ];
 
