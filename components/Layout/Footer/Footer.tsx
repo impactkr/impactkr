@@ -5,12 +5,12 @@ const lineClass = 'block h-[1px] w-full border-none';
 
 function Footer() {
   return (
-    <footer className="bg-[#212020] px-[112px] py-[42px] text-sm text-white">
-      <p className="border border-x-0 border-t-0 border-[#494747] pb-[14px]">
+    <footer className="bg-[#212020] px-[112px] py-[42px] text-sm text-white mo:px-[20px] mo:py-[30px]">
+      <p className="border border-x-0 border-t-0 border-[#494747] pb-[14px] mo:hidden">
         Impact Korea
       </p>
 
-      <div className="flex flex-wrap items-center gap-[3px] py-[14px]">
+      <div className="flex flex-wrap items-center gap-[3px] py-[14px] mo:hidden">
         <dl className="flex">
           <dt>사업자명</dt>
           <dd className="ml-[6px]">(주)임팩트코리아</dd>
@@ -63,7 +63,7 @@ function Footer() {
         </dl>
       </div>
 
-      <p className="text-xs text-gray-400">
+      <p className="text-xs text-gray-400 mo:text-center">
         Copyright © (주)임팩트코리아 All rights reserved.
       </p>
     </footer>
