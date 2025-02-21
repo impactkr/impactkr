@@ -6,7 +6,7 @@ import BusinessInfo from "@/components/Landing/BusinessInfo";
 
 function Business() {
   return (
-    <section className="w-full">
+    <section className="w-full mo:hidden">
       <Inner className="flex justify-between py-[150px]">
         <motion.h3
           className="text-5xl font-medium tracking-tight text-[#555555]"
