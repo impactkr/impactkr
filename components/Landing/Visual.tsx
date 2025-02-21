@@ -22,7 +22,7 @@ function Visual() {
           viewport={{ once: true }}
           transition={{
             duration: 0.5,
-            delay: 2,
+            delay: 0.3,
           }}
           className="flex h-screen flex-col items-center justify-center"
         >
