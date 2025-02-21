@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import VisualText from "./VisualText";
+import VisualText from "@/components/Landing/VisualText";
 
 function Visual() {
   return (
@@ -21,8 +21,8 @@ function Visual() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
-            duration: 1,
-            delay: 0.3,
+            duration: 0.5,
+            delay: 1.5,
           }}
           className="flex h-screen flex-col items-center justify-center"
         >

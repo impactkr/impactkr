@@ -1,5 +1,6 @@
 "use client";
 
+import Intro from "@/components/Intro";
 import Business from "@/components/Landing/Business";
 import Visual from "@/components/Landing/Visual";
 import Footer from "@/components/Layout/Footer/Footer";
@@ -12,6 +13,8 @@ function Home() {
       <Visual />
       <Business />
       <Footer />
+
+      <Intro />
     </>
   );
 }
