@@ -1,5 +1,5 @@
-import Logo_Icon from "/public/image/logo_icon_white.svg";
 import Logo_Col from "/public/image/logo_col_gray.svg";
+import Logo_Icon from "/public/image/logo_icon_white.svg";
 import Logo_Row from "/public/image/logo_row_white.svg";
 
 interface LogoProps {
