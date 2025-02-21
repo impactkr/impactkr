@@ -1,28 +1,30 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+
+import Logo from "./Logo";
 
 function ComingSoon() {
   const router = useRouter();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      router.push("/");
-    }, 3000);
-
-    return () => clearTimeout(timer);
-  }, [router]);
-
   return (
-    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-      <Image
-        src="/image/img_ready.png"
-        alt="페이지 준비 중입니다."
-        width={500}
-        height={500}
-      />
+    <div className="fixed left-0 top-0 z-[3] flex h-screen w-full items-center justify-center bg-black">
+      <div className="flex flex-col items-center">
+        <div className="w-[100px] mo:w-[80px]">
+          <Logo type="icon" />
+        </div>
+        <p className="mt-[16px] text-2xl font-medium text-white">
+          페이지 준비 중입니다.
+        </p>
+
+        <button
+          className="mt-[28px] h-[40px] w-[150px] rounded-[8px] bg-white text-black transition duration-300 hover:opacity-90"
+          onClick={() => router.push("/")}
+        >
+          이전 페이지로 이동
+        </button>
+      </div>
     </div>
   );
 }
