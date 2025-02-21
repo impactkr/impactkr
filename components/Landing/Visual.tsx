@@ -7,7 +7,7 @@ function Visual() {
     <section className="relative h-[230vh] w-full">
       <div className="sticky top-0 h-screen before:absolute before:z-[1] before:block before:size-full before:bg-black/50 before:content-['']">
         <video
-          src="/video/video_main_2560.mp4"
+          src="/video/video_main_1920.mp4"
           className="size-full object-cover"
           autoPlay
           loop
