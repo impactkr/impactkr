@@ -35,9 +35,9 @@ function BusinessItem({
           <Image src={src} alt="" fill className="object-cover" />
         </div>
 
-        <dl className="mt-[30px] text-[#555555]">
-          <dt className="text-[32px] font-semibold">{title}</dt>
-          <dd className="mt-[16px] text-[18px] font-medium leading-[24px]">
+        <dl className="mt-[30px] text-[#555555] mo:mt-[20px]">
+          <dt className="text-[32px] font-semibold mo:text-[20px]">{title}</dt>
+          <dd className="mt-[16px] text-[18px] font-medium leading-[24px] mo:mt-[8px] mo:text-[16px]">
             {content}
           </dd>
         </dl>

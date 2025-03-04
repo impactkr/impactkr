@@ -7,9 +7,9 @@ import BusinessItem from "./BusinessItem";
 function Business() {
   return (
     <section className="w-full">
-      <Inner className="flex justify-between pt-[150px] ta:flex-col ta:py-[100px]">
+      <Inner className="flex justify-between pt-[150px] ta:flex-col ta:py-[80px]">
         <motion.h3
-          className="text-5xl font-medium tracking-tight text-[#555555]"
+          className="mo: text-5xl font-medium tracking-tight text-[#555555] mo:text-3xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -21,7 +21,7 @@ function Business() {
           Business
         </motion.h3>
 
-        <ul className="flex justify-end gap-[50px] ta:mt-[40px] ta:justify-between mo:flex-col">
+        <ul className="flex justify-end gap-[50px] ta:mt-[40px] ta:justify-between mo:mt-[30px] mo:flex-col">
           <BusinessItem
             delay={0.6}
             src="/image/img_agency.jpg"
@@ -29,9 +29,9 @@ function Business() {
             content={
               <>
                 아파트, 오피스텔, 상업시설 등 다양한
-                <br className="ta:hidden" />
+                <br className="ta:hidden mo:block" />
                 주거 및 비주거 상품의 맞춤형 분양
-                <br className="ta:hidden" />
+                <br className="ta:hidden mo:block" />
                 전략 수립 및 실행
               </>
             }
@@ -45,7 +45,7 @@ function Business() {
             content={
               <>
                 고객 환경에 최적화된
-                <br className="ta:hidden" />
+                <br className="ta:hidden mo:block" />
                 사업 기획, 설계, MD 구성 컨설팅 제공
               </>
             }
@@ -59,7 +59,7 @@ function Business() {
             content={
               <>
                 체계적인 입주 프로세스를 운영하여
-                <br className="ta:hidden" />
+                <br className="ta:hidden mo:block" />
                 고객과 입주자의 만족도를 극대화
               </>
             }
