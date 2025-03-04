@@ -9,9 +9,11 @@ function Visual() {
         <video
           src="/video/video_main_1920.mp4"
           className="size-full object-cover"
+          preload="metadata"
           autoPlay
           loop
           muted
+          playsInline
         />
       </div>
 
