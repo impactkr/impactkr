@@ -20,7 +20,7 @@ export default {
           max: "1200px",
         },
         mo: {
-          max: "640px",
+          max: "767px",
         },
       },
     },
