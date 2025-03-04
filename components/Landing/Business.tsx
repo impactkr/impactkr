@@ -38,7 +38,7 @@ function Business() {
           />
 
           <BusinessCard
-            className="mt-[100px] ta:items-center"
+            className="mt-[100px] ta:items-center mo:text-right"
             delay={0.9}
             src="/image/img_planning.jpg"
             title="컨설팅"
