@@ -5,7 +5,7 @@ const lineClass = "block h-[1px] w-full border-none";
 
 function Footer() {
   return (
-    <footer className="bg-[#212020] px-[112px] py-[42px] text-sm text-white mo:px-[20px] mo:py-[30px]">
+    <footer className="mt-[150px] bg-[#212020] px-[112px] py-[42px] text-sm text-white mo:mt-[80px] mo:px-[20px] mo:py-[30px]">
       <p className="border border-x-0 border-t-0 border-[#494747] pb-[14px] mo:hidden">
         Impact Korea
       </p>

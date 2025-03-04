@@ -7,7 +7,7 @@ import BusinessCard from "./BusinessCard";
 function Business() {
   return (
     <section className="w-full">
-      <Inner className="flex justify-between pt-[150px] ta:flex-col ta:py-[80px]">
+      <Inner className="flex justify-between pt-[150px] ta:flex-col ta:pt-[80px]">
         <motion.h3
           className="mo: text-5xl font-medium tracking-tight text-[#555555] mo:text-3xl"
           initial={{ opacity: 0, y: 20 }}
