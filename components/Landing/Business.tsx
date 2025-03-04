@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import Inner from "@/components/Inner";
 
-import BusinessItem from "./BusinessItem";
+import BusinessCard from "./BusinessCard";
 
 function Business() {
   return (
@@ -22,7 +22,7 @@ function Business() {
         </motion.h3>
 
         <ul className="flex justify-end gap-[50px] ta:mt-[40px] ta:justify-between mo:mt-[30px] mo:flex-col">
-          <BusinessItem
+          <BusinessCard
             delay={0.6}
             src="/image/img_agency.jpg"
             title="분양대행"
@@ -37,7 +37,7 @@ function Business() {
             }
           />
 
-          <BusinessItem
+          <BusinessCard
             className="mt-[100px] ta:items-center"
             delay={0.9}
             src="/image/img_planning.jpg"
@@ -51,7 +51,7 @@ function Business() {
             }
           />
 
-          <BusinessItem
+          <BusinessCard
             className="mt-[50px] ta:items-end"
             delay={1.2}
             src="/image/img_services.jpg"

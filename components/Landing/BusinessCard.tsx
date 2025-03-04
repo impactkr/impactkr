@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import classNames from "classnames";
 
-function BusinessItem({
+function BusinessCard({
   className,
   delay,
   src,
@@ -46,4 +46,4 @@ function BusinessItem({
   );
 }
 
-export default BusinessItem;
+export default BusinessCard;
