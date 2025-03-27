@@ -28,7 +28,7 @@ function Footer() {
         <dl className="flex">
           <dt>TEL.</dt>
           <dd className="ml-[6px]">
-            <a href="tel:010-0000-0000">010-0000-0000</a>
+            <a href="tel:010-0000-0000">010-2218-2018</a>
           </dd>
         </dl>
 
@@ -36,19 +36,19 @@ function Footer() {
 
         <dl className="flex">
           <dt>사업자등록번호</dt>
-          <dd className="ml-[6px]">000-00-00000</dd>
+          <dd className="ml-[6px]">730-86-03062</dd>
         </dl>
 
         <span className={classNames(barClass)} />
 
         <dl className="flex">
-          <dt>oo업</dt>
+          <dt>부동산업</dt>
         </dl>
 
         <span className={classNames(barClass)} />
 
         <dl className="flex">
-          <dt>xx업</dt>
+          <dt>부동산 분양 대행업</dt>
         </dl>
 
         <hr className={classNames(lineClass)} />
@@ -57,7 +57,7 @@ function Footer() {
           <dt>주소</dt>
           <dd className="ml-[6px]">
             <address className="not-italic">
-              경기도 김포시 구래동 (우: 000000)
+              경기도 김포시 김포한강9로 79
             </address>
           </dd>
         </dl>
